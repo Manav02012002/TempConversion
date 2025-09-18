@@ -32,7 +32,7 @@ def F_to_N(x):
     t = (x-32)*0.18333
     return t
 def F_to_Ro(x):
-    t = (x-32)*0.18333
+    t = (x - 32) * (7/24) + 7.5
     return t
 def F_to_D(x):
     t = (x-32)*0.83333 -100
@@ -165,4 +165,5 @@ def Rea_to_Ro(x):
     return t
 def Rea_to_D(x):
     t = (x*1.8750)-100
+
     return t 
