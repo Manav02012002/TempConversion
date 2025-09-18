@@ -8,6 +8,9 @@ Syntax:
 import py_tempconv
 
 #Example of converting 100 degrees Celsius to Fahrenheit
+
+
 temp_in_f = py_tempconv.C_to_F(100)
 
 print(temp_in_f)
+
